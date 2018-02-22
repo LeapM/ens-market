@@ -2,12 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function* test(){
-  yield "hello"
-}
-
-let iretator = test();
-console.log(iretator.next());
 class App extends Component {
   render() {
     return (
